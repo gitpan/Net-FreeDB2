@@ -115,7 +115,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Response::Sites - FreeDB/CDDB sites response class
+Net::FreeDB2::Response::Sites - FreeDB/CDDB sites response class
 
 =head1 SYNOPSIS
 

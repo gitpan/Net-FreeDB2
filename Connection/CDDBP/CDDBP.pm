@@ -31,7 +31,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.4 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 my $FINAL_EOL_RX = '[\r\n]';
 my $FINAL_DOT_RX = '[\r\n]\.[\r\n]';
@@ -347,7 +347,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Connection::CDDBP - FreeDB/CDDB concrete connection class using the CDDBP protocol
+Net::FreeDB2::Connection::CDDBP - FreeDB/CDDB concrete connection class using the CDDBP protocol
 
 =head1 SYNOPSIS
  

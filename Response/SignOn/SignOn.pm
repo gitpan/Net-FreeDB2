@@ -31,7 +31,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.4 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 my $CODE_RX = '^\s*(\d{3})\s+';
 
@@ -147,7 +147,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Response::SignOn - FreeDB/CDDB sign-on response class
+Net::FreeDB2::Response::SignOn - FreeDB/CDDB sign-on response class
 
 =head1 SYNOPSIS
 

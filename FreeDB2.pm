@@ -30,7 +30,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.2 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.6 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 sub connection {
 	# Allow both styles Net::FreeDB2->connection and Net::FreeDB2::connection
@@ -136,7 +136,7 @@ Net::FreeDB2 - FreeDB generic connection class
 
 C<Net::FreeDB2> is another FreeDB/CDDB access class hierarchy. The basics are similar to the other FreeDB/CDDB Perl modules.
 
-However, in the writers opinion, the details differ enough for it to have a certain right of existance. It's organization is inspired by C<Net::Ldap>.
+However, in the writers opinion, the details differ enough for it to have a certain right of existance. It's organization is inspired by C<Net::LDAP>.
 
 =over Information is captured into sensible objects.
 

@@ -31,7 +31,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.3 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 my $CODE_RX = '^\s*(\d{3})\s+';
 my $EXACT_MATCH_RX = $CODE_RX . '(\S+)\s+(\S+)\s+(.*)\s*$';
@@ -131,7 +131,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Response::Query - FreeDB/CDDB query response class
+Net::FreeDB2::Response::Query - FreeDB/CDDB query response class
 
 =head1 SYNOPSIS
 

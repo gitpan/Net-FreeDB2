@@ -31,7 +31,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.3 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 sub new {
 	# Call constructor of super class
@@ -304,7 +304,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Connection::HTTP - FreeDB/CDDB concrete connection class using the HTTP protocol
+Net::FreeDB2::Connection::HTTP - FreeDB/CDDB concrete connection class using the HTTP protocol
 
 =head1 SYNOPSIS
  

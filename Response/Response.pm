@@ -30,7 +30,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.3 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 sub new {
 	my $class = shift;
@@ -75,7 +75,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Response - Abstract class for FreeDB/CDDB responses.
+Net::FreeDB2::Response - Abstract class for FreeDB/CDDB responses.
 
 =head1 SYNOPSIS
 

@@ -30,7 +30,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.2 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.3 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 my $DB_LINE_LEN_DEF = 256;
 
@@ -712,7 +712,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Entry - FreeDB/CDDB entry class
+Net::FreeDB2::Entry - FreeDB/CDDB entry class
 
 =head1 SYNOPSIS
 

@@ -30,7 +30,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our ( $VERSION ) = '$Revision: 0.8.2.1 $ ' =~ /\$Revision:\s+([^\s]+)/;
+our ( $VERSION ) = '$Revision: 0.8.2.4 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 sub new {
 
@@ -314,7 +314,7 @@ __END__
 
 =head1 NAME
 
-FreeDB::Connection - FreeDB/CDDB abstract connection class
+Net::FreeDB2::Connection - FreeDB/CDDB abstract connection class
 
 =head1 SYNOPSIS
 
